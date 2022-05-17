@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE51B66828342840004A6A75 /* Layout.json in Resources */ = {isa = PBXBuildFile; fileRef = CE51B66728342840004A6A75 /* Layout.json */; };
+		CE51B66D283440CC004A6A75 /* iOSClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51B66C283440CC004A6A75 /* iOSClass.swift */; };
 		CECA13BF2832824C004D4DC4 /* TweakBuilderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA13BE2832824C004D4DC4 /* TweakBuilderApp.swift */; };
 		CECA13C12832824C004D4DC4 /* AppSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA13C02832824C004D4DC4 /* AppSidebarView.swift */; };
 		CECA13C32832824E004D4DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECA13C22832824E004D4DC4 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE51B66728342840004A6A75 /* Layout.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Layout.json; sourceTree = "<group>"; };
+		CE51B66C283440CC004A6A75 /* iOSClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSClass.swift; sourceTree = "<group>"; };
 		CECA13BB2832824C004D4DC4 /* TweakBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweakBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECA13BE2832824C004D4DC4 /* TweakBuilderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweakBuilderApp.swift; sourceTree = "<group>"; };
 		CECA13C02832824C004D4DC4 /* AppSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSidebarView.swift; sourceTree = "<group>"; };
@@ -34,6 +38,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE51B66928342846004A6A75 /* Layout Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE51B66728342840004A6A75 /* Layout.json */,
+			);
+			path = "Layout Files";
+			sourceTree = "<group>";
+		};
+		CE51B66B283440A2004A6A75 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				CE51B66C283440CC004A6A75 /* iOSClass.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
 		CECA13B22832824C004D4DC4 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +73,8 @@
 		CECA13BD2832824C004D4DC4 /* TweakBuilder */ = {
 			isa = PBXGroup;
 			children = (
+				CE51B66B283440A2004A6A75 /* Structs */,
+				CE51B66928342846004A6A75 /* Layout Files */,
 				CECA13BE2832824C004D4DC4 /* TweakBuilderApp.swift */,
 				CECA13C02832824C004D4DC4 /* AppSidebarView.swift */,
 				CECA13CC28329110004D4DC4 /* ClassesView.swift */,
@@ -129,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECA13C62832824E004D4DC4 /* Preview Assets.xcassets in Resources */,
+				CE51B66828342840004A6A75 /* Layout.json in Resources */,
 				CECA13C32832824E004D4DC4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +165,7 @@
 			files = (
 				CECA13CD28329110004D4DC4 /* ClassesView.swift in Sources */,
 				CECA13C12832824C004D4DC4 /* AppSidebarView.swift in Sources */,
+				CE51B66D283440CC004A6A75 /* iOSClass.swift in Sources */,
 				CECA13BF2832824C004D4DC4 /* TweakBuilderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

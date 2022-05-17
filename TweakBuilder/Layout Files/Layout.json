@@ -1,0 +1,51 @@
+[
+    "name": "SpringBoard",
+    "layout": [
+        {
+            "name": "Status Bar Window",
+            "className": "UIStatusBarWindow",
+            "advanced": true,
+            "icon": "menubar.rectangle",
+            "layout": [
+                {
+                    "name": "Status Bar Modern",
+                    "className": "UIStatusBar_Modern",
+                    "advanced": true,
+                    "icon": "menubar.rectangle",
+                    "layout": [
+                        {
+                            "name": "Status Bar",
+                            "className": "_UIStatusBar",
+                            "advanced": false,
+                            "icon": "menubar.rectangle",
+                            "layout": [
+                                {
+                                    "name": "Status Bar Foreground",
+                                    "className": "_UIStatusBar",
+                                    "advanced": true,
+                                    "icon": "menubar.rectangle",
+                                    "layout": [
+                                        {
+                                            "name": "Status Bar Cellular Signal View",
+                                            "className": "_UIStatusBarCellularSignalView",
+                                            "advanced": false,
+                                            "icon": "chart.bar"
+                                        },
+                                        {
+                                            "name": "Status Bar String View",
+                                            "className": "_UIStatusBarStringView",
+                                            "advanced": false,
+                                            "icon": "textformat.abc"
+                                        },
+                                    ]
+                                    
+                                }
+                            ]
+                            
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+]
