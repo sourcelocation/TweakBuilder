@@ -55,9 +55,8 @@ struct AppSidebarView: View {
                     }
                 }
             }
-            .listStyle(.inset)
+            .listStyle(.insetGrouped)
             .navigationTitle("My Tweak")
-
         }
     }
 }
